@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UJ SkillShare | Student-to-Student Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="tutors.css">
+</head>
+<body>
+    <!-- Find a Tutor Section -->
+    <section id="find-tutor" class="find-tutor">
+        <div class="container">
+            <h2 class="section-title">Find Your Perfect Tutor</h2>
+            
+            <div class="tutor-search-container">
+                <!-- Search and Filters -->
+                <div class="tutor-filters">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="tutor-search" placeholder="Search tutors or subjects...">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Filter by Subject</h4>
+                        <div class="subject-filters">
+                            <button class="subject-filter active" data-subject="all">All Subjects</button>
+                            <button class="subject-filter" data-subject="mathematics">Mathematics</button>
+                            <button class="subject-filter" data-subject="programming">Programming</button>
+                            <button class="subject-filter" data-subject="science">Science</button>
+                            <button class="subject-filter" data-subject="business">Business</button>
+                            <button class="subject-filter" data-subject="design">Design</button>
+                            <button class="subject-filter" data-subject="languages">Languages</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Filter by Rating</h4>
+                        <div class="rating-filters">
+                            <button class="rating-filter active" data-rating="0">All Ratings</button>
+                            <button class="rating-filter" data-rating="4.5">4.5+ Stars</button>
+                            <button class="rating-filter" data-rating="4.0">4.0+ Stars</button>
+                            <button class="rating-filter" data-rating="3.5">3.5+ Stars</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Hourly Rate</h4>
+                        <div class="rate-filters">
+                            <button class="rate-filter active" data-rate="all">Any Rate</button>
+                            <button class="rate-filter" data-rate="50">Under R50/hr</button>
+                            <button class="rate-filter" data-rate="100">Under R100/hr</button>
+                            <button class="rate-filter" data-rate="150">Under R150/hr</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tutors Grid -->
+                <div class="tutors-container">
+                    <div class="tutors-header">
+                        <h3 id="tutors-count">24 Tutors Available</h3>
+                        <div class="sort-options">
+                            <select id="sort-tutors">
+                                <option value="rating">Sort by Rating</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="name">Sort by Name</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="tutors-grid" id="tutors-grid">
+                        <!-- Tutors will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="tutors.js"></script>
+</body>
+</html>

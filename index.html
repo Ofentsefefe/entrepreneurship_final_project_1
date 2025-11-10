@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UJ SkillShare | Student-to-Student Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>UJ SkillShare</h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#browse">Browse Skills</a></li>
+                        <li><a href="#teach">Teach</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn-primary">Login</a>
+                    <a href="register.html" class="btn-primary">register</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Share Skills, Build Knowledge</h2>
+                <p>Connect with fellow UJ students to learn new skills or share your expertise. From academic subjects to personal development, find the perfect skill exchange.</p>
+                <div class="hero-buttons">
+                    <a href="tutors.html" class="btn-primary">Find a Tutor</a>
+                    <a href="become-tutor.html" class="btn-primary">Become a Tutor</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="src/images/Uj_Grads.jpg" alt="Students learning together in a classroom" class="hero-img">
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>1. Create Profile</h3>
+                    <p>Sign up as a learner or tutor with your UJ credentials</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>2. Browse Skills</h3>
+                    <p>Find tutors for subjects you want to learn or list your own skills</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>3. Connect</h3>
+                    <p>Message tutors, schedule sessions, and agree on terms</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>4. Learn & Earn</h3>
+                    <p>Attend sessions as learner or teach and earn as a tutor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse Skills Section -->
+    <section id="browse" class="browse-skills">
+        <div class="container">
+            <h2 class="section-title">Browse Popular Skills</h2>
+            <div class="skills-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Academic</button>
+                <button class="filter-btn">Technical</button>
+                <button class="filter-btn">Creative</button>
+                <button class="filter-btn">Business</button>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill cards will be populated by JavaScript -->
+            </div>
+            <div class="view-all">
+                <button class="btn-outline">View All Skills</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teach Section -->
+    <section id="teach" class="teach-section">
+        <div class="container">
+            <div class="teach-content">
+                <div class="teach-text">
+                    <h2>Share Your Knowledge & Earn</h2>
+                    <p>Are you skilled in a particular subject or activity? Become a tutor and help fellow students while earning extra income.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Set your own schedule and rates</li>
+                        <li><i class="fas fa-check"></i> Build your teaching experience</li>
+                        <li><i class="fas fa-check"></i> Help other students succeed</li>
+                        <li><i class="fas fa-check"></i> Get rated and build your reputation</li>
+                    </ul>
+                    <button class="btn-primary">Become a Tutor</button>
+                </div>
+                <div class="teach-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <p>Share Your Expertise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Students Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"I struggled with Calculus until I found a tutor on UJ SkillShare. Now I'm acing my tests!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Teaching graphic design has helped me improve my communication skills and earn extra money."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>James T.</h4>
+                            <p>Design Student & Tutor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"The platform is easy to use and I found the perfect programming tutor within minutes."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Lisa K.</h4>
+                            <p>Engineering Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>UJ SkillShare</h3>
+                    </div>
+                    <p>Connecting UJ students through knowledge sharing and skill development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#browse">Browse Skills</a></li>
+                        <li><a href="#teach">Become a Tutor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Safety Guidelines</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> University of Johannesburg</li>
+                        <li><i class="fas fa-envelope"></i> support@ujskillshare.com</li>
+                        <li><i class="fas fa-phone"></i> +27 11 559 4555</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 UJ SkillShare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to UJ SkillShare</h2>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label for="email">UJ Email</label>
+                    <input type="email" id="email" placeholder="student@uj.ac.za" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+            <p class="auth-switch">Don't have an account? <a href="#" id="switch-to-signup">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Join UJ SkillShare</h2>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">UJ Email</label>
+                    <input type="email" id="signup-email" placeholder="student@uj.ac.za" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">I want to:</label>
+                    <select id="role" required>
+                        <option value="">Select role</option>
+                        <option value="learner">Learn from others</option>
+                        <option value="tutor">Teach others</option>
+                        <option value="both">Both learn and teach</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Create Account</button>
+            </form>
+            <p class="auth-switch">Already have an account? <a href="#" id="switch-to-login">Login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

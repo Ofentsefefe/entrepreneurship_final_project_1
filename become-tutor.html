@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Tutor | UJ SkillShare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-page tutor-page">
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>UJ SkillShare</h1>
+                </a>
+            </div>
+            <p class="tagline">Share your knowledge and earn with UJ SkillShare</p>
+        </div>
+
+        <!-- Tutor Application Form -->
+        <div class="form-container-single">
+            <div class="form-card tutor-application">
+                <h2 class="form-title">Become a Tutor</h2>
+                <p class="form-subtitle">Share your expertise and help fellow students while earning extra income</p>
+                
+                <div class="tutor-benefits">
+                    <div class="benefit-card">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <h3>Earn Extra Income</h3>
+                        <p>Set your own rates and earn up to R150 per hour</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Flexible Schedule</h3>
+                        <p>Teach when it's convenient for you</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Build Your Network</h3>
+                        <p>Connect with students across UJ</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Enhance Your CV</h3>
+                        <p>Gain valuable teaching experience</p>
+                    </div>
+                </div>
+
+                <form id="tutorApplicationForm" class="auth-form">
+                    <div class="form-section">
+                        <h3 class="section-title">Personal Information</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="tutor-name">Full Name</label>
+                                <input type="text" id="tutor-name" class="form-control" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tutor-student-id">Student Number</label>
+                                <input type="text" id="tutor-student-id" class="form-control" placeholder="Enter your student number" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-email">UJ Email Address</label>
+                            <input type="email" id="tutor-email" class="form-control" placeholder="student@uj.ac.za" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-phone">Phone Number</label>
+                            <input type="tel" id="tutor-phone" class="form-control" placeholder="+27 XXX XXX XXXX" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="section-title">Teaching Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="tutor-subjects">Subjects You Can Teach</label>
+                            <select id="tutor-subjects" class="form-control" multiple required>
+                                <option value="mathematics">Mathematics</option>
+                                <option value="programming">Programming</option>
+                                <option value="science">Science</option>
+                                <option value="business">Business</option>
+                                <option value="design">Design</option>
+                                <option value="languages">Languages</option>
+                                <option value="writing">Academic Writing</option>
+                                <option value="music">Music</option>
+                                <option value="sports">Sports</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <small class="form-hint">Hold Ctrl/Cmd to select multiple subjects</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-rate">Preferred Hourly Rate (R)</label>
+                            <input type="number" id="tutor-rate" class="form-control" min="50" max="200" placeholder="120" required>
+                            <small class="form-hint">Recommended rate: R80 - R150 per hour</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-availability">Availability</label>
+                            <div class="availability-options">
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="availability" value="weekdays">
+                                    <span>Weekdays</span>
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="availability" value="weekends">
+                                    <span>Weekends</span>
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="availability" value="evenings">
+                                    <span>Evenings</span>
+                                </label>
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="availability" value="flexible">
+                                    <span>Flexible</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-experience">Teaching Experience</label>
+                            <textarea id="tutor-experience" class="form-control" rows="4" placeholder="Describe any previous teaching, tutoring, or mentoring experience..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tutor-qualifications">Qualifications & Skills</label>
+                            <textarea id="tutor-qualifications" class="form-control" rows="3" placeholder="List your relevant qualifications, certifications, or special skills..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="section-title">Additional Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="tutor-methodology">Teaching Methodology</label>
+                            <textarea id="tutor-methodology" class="form-control" rows="3" placeholder="Briefly describe your approach to teaching..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="tutor-guidelines" required>
+                                <span>I agree to follow UJ SkillShare tutoring guidelines and code of conduct</span>
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="tutor-availability-confirm" required>
+                                <span>I confirm that I can commit to at least 2 hours of tutoring per week</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit tutor-submit">
+                        <i class="fas fa-paper-plane"></i>
+                        Submit Tutor Application
+                    </button>
+                </form>
+
+                <div class="application-note">
+                    <p><strong>Note:</strong> Your application will be reviewed within 3 business days. You'll receive an email notification once approved.</p>
+                </div>
+            </div>
+
+            <div class="page-actions">
+                <div class="action-links">
+                    <a href="login.html" class="action-link">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Already have an account? Sign in
+                    </a>
+                    <a href="register.html" class="action-link">
+                        <i class="fas fa-user-plus"></i>
+                        Need a student account? Register
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
