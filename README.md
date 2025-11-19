@@ -10,7 +10,7 @@
 ## About_Project
 UJ Skill Share is a digital platform created to help students at the University of Johannesburg (UJ) easily exchange skills, find academic tutors, or become tutors themselves. The project aims to strengthen peer-to-peer learning by giving students a space where they can support one another academically or personally. Whether a student wants to improve in a particular subject, learn a new skill, or offer their knowledge to others, the platform bridges the gap by connecting learners with skilled peers. By promoting community support, accessible tutoring, and student-driven collaboration, UJ Skill Share encourages a culture of growth, empowerment, and shared learning across campus.
 
-## feature
+## features
 👩‍🏫 Find a Tutor
 Search by subject, skills, or tutor rating
 View tutor profiles, availability, and skill level
