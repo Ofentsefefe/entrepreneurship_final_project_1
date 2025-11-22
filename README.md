@@ -2,6 +2,7 @@
 ## 📑 Table of Contents
 - [About_Project](#About_Project)
 - [Features](#features)
+- [Tech_Stack](#Tech_Stack)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -33,6 +34,6 @@ Ask questions and confirm details before booking
 Register and log in with your details
 Student verification (optional: UJ email validator)
 
-
+## Tech_Stack
 
 
