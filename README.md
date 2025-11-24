@@ -34,7 +34,7 @@ Ask questions and confirm details before booking
 Register and log in with your details
 Student verification (optional: UJ email validator)
 
-##Folder_Structure
+## Folder_Structure
 
 
 ## Tech_Stack
