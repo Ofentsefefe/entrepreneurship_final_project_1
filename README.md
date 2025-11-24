@@ -3,7 +3,7 @@
 - [About_Project](#About_Project)
 - [Features](#features)
 - [Tech_Stack](#Tech_Stack)
-- [Installation](#installation)
+- [Folder_Structure](#Folder_Structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,6 +33,9 @@ Ask questions and confirm details before booking
 🛡️ Secure Authentication
 Register and log in with your details
 Student verification (optional: UJ email validator)
+
+##Folder_Structure
+
 
 ## Tech_Stack
 | Frontend | Backend | Database |
