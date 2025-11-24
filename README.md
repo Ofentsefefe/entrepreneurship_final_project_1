@@ -4,8 +4,7 @@
 - [Features](#features)
 - [Tech_Stack](#Tech_Stack)
 - [Folder_Structure](#Folder_Structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [future_improvement](#future_improvement)
 - [License](#license)
 
 ## About_Project
@@ -41,3 +40,17 @@ Student verification (optional: UJ email validator)
 | Frontend | Backend | Database |
 |----------|----------|----------|
 |Java Script, HTML, CSS | Firebase| MySQL |
+
+## future_improvement
+⭐ Rating & review system for tutors
+
+📍 Location filtering (UJ campuses)
+
+📱 Mobile app version (React Native / Flutter)
+
+🔔 Real-time notifications
+
+💳 Secure online payments for premium sessions
+
+🎥 Video call tutoring inside the platform
+
