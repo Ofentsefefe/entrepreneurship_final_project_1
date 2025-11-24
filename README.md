@@ -37,4 +37,4 @@ Student verification (optional: UJ email validator)
 ## Tech_Stack
 | Frontend | Backend | Database |
 |----------|----------|----------|
-
+|Java Script, HTML, CSS | Firebase| MySQL |
