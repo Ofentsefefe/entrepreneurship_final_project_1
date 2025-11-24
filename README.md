@@ -35,5 +35,6 @@ Register and log in with your details
 Student verification (optional: UJ email validator)
 
 ## Tech_Stack
-
+| Frontend | Backend | Database |
+|----------|----------|----------|
 
