@@ -555,4 +555,5 @@ body.auth-page {
     .availability-options {
         grid-template-columns: 1fr;
     }
+
 }
